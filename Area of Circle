@@ -1,0 +1,16 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+
+ double radious, area;
+
+ cout<<"Enter radious : ";
+ cin>>radious;
+
+ area =  3.1416 * radious * radious;
+ cout<<"Area of Circle = " <<area;
+
+    getch();
+}
