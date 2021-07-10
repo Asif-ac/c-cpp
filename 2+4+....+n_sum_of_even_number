@@ -1,0 +1,29 @@
+//S M Asifur Rahman
+//Khwaja Younus Ali University
+
+
+
+
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main()
+{
+
+    int sum = 0, n;
+
+    cout<< "Enter the last numnber : ";
+    cin>> n;
+
+    for(int i=2; i<=n; i=i+2)
+    {
+
+        sum = sum +i;
+    }
+    cout<<sum;
+
+    getch();
+}
+
