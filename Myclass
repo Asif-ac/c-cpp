@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class Student
+{
+public:
+    int id;
+    double gpa;
+};
+
+
+
+int main()
+{
+
+    Student A;
+    A.id=100;
+    A.gpa = 3.50;
+
+    cout<<A.id <<"  "  <<A.gpa <<endl;
+
+
+
+    return 0;
+}
+
+
+
