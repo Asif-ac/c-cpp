@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int i,j,a, even=0,odd=0;
+    int n[1000];
+    cout<<"Enter any number: ";
+    cin>>a;
+    cout<<"Enter array element";
+    for(i=0;i<a;i++)
+    {
+     cin>>n[i];
+    }
+
+    for(j=0;j<a;j++)
+    {
+        if(n[j]%2==0)
+        {
+            even = even+n[j];
+        }
+        else
+            odd = odd+n[j];
+
+    }
+cout<<even <<endl <<odd;
+
+
+
+    return 0;
+}
