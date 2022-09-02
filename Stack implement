@@ -1,0 +1,52 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define num  10
+
+int top=-1;
+int arr[num];
+
+void push(int data)
+{
+    if(top==num-1)
+    {
+        cout<<"stack is Full";
+        return;
+    }
+    top++;
+    arr[top]=data;
+}
+
+void pop()
+{
+    if(top==-1)
+    {
+        cout<<"Stack is Empty";
+        //return -1;
+    }
+    top--;
+
+
+}
+void display()
+{
+    for(int i=0;i<=top;i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+}
+
+int main()
+{
+    cout<<"\t\t\t" <<"Stack implement"<<endl;
+    cout<<"push element"<<endl;
+    push(10);
+    push(20);
+    push(30);
+    push(40);
+    display();
+    cout<<endl<<"pop element "<<endl;
+
+    pop();
+    display();
+}
